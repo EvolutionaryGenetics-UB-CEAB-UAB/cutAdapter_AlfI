@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#usage: qsub <options> /piec1/scripts/deNovoPipe_AlfI.sh path 
-#eg: qsub -l h_vmem=50G /piec1/scripts/deNovoPipe_AlfI.sh path 
+#usage: qsub <options> deNovoPipe_AlfI.sh path 
+#eg: qsub -l h_vmem=50G deNovoPipe_AlfI.sh path 
 #change xxx with the path were scripts are located
 
 path="$1"
